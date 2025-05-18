@@ -40,11 +40,11 @@ public class CalculatorTest {
     }
 
     //Timeout: Espera un tiempo antes de dar un error
-//    @Test(timeout = 150)
-//    public void given_two_integers_when_multiplication_then_ok() {
-//        assertEquals(200, calc.multiply(10, 20));
-//        System.out.println("Test4()");
-//    }
+    @Test(timeout = 150)
+    public void given_two_integers_when_multiplication_then_ok() {
+        assertEquals(200, calc.multiply(10, 20));
+        System.out.println("Test4()");
+    }
 
     //Se ejecuta despues de cada prueba
     @After
